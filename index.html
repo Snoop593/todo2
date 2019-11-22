@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>todos</title>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div>Введите дату (месяц.день.год): <input class="dateIn" type="text"></div>
+		<div>Введите событие: <input type="text"></div>
+		<div class="error"></div>
+		<div><button id="addEvent">Добавить</button></div>
+	</header>
+	<div class="conteiner">
+		<div class="lists">
+			<div class="arrowLeft"><button><-</button></div>
+			<div class="searchList">Найти: <input id="searchList" type="text"></div>
+			<div class="addList">Новый: <input type="text"></div>
+			<div class="plus"><button>+</button></div>
+			<div class="minus"><button>-</button></div>
+			<div class="arrowRigth"><button>-></button></div>
+		</div>
+		<div class="sort"></div>
+	</div>
+	
+	<section>
+
+	</section>
+	<footer>	
+		<div class="item"></div>	
+		<div><button id="all">Все</button></div>
+		<div><button id="allToday">На день</button></div>
+		<div><button id="active">Активные</button></div>
+		<div><button id="completed">Завершенные</button></div>
+		<div><button id="mulDel" class="mulDel">Удалить выбранные</button></div>
+	</footer>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>

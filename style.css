@@ -1,0 +1,145 @@
+*{
+	font-size: 4vh;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+body{
+	background-color: pink;
+}
+button{
+	color: #fff; 
+ 	text-decoration: none; 
+ 	user-select: none;
+ 	background: rgb(212,75,56);
+ 	padding: .2em 0.5em; 
+  	cursor: pointer;
+
+}
+button:hover{
+  	background: rgb(232,95,76); 
+}
+button:active{
+	background: rgb(152,15,0);
+} 
+
+section{
+	width:80%;
+	margin:0 10% 0% 10%; 
+}
+header{
+	width:80%;
+	margin:0 10% 0 10%;
+	background-color: #0047AB;
+	color:white;
+	border-bottom: 2px solid black;
+	padding-bottom: 1%;
+	border-radius: 50px;
+}
+header div{
+	padding-top: 3vh;
+	width:80%;
+	margin: 0 auto;
+	text-align: center;
+}
+footer{
+	width:80%;
+	margin:2% 10% 0 10%;
+	background-color: silver;
+	border-top: 2px solid black;
+}
+footer div{
+	width:13,3%;
+	float:left;
+	margin: 0 auto;
+	text-align: center;
+	margin-right: 3%;
+}
+footer div button{
+	font-size: 3vh;
+	
+}
+.error{
+	color: orange;
+	font-weight: 800;
+}
+
+.dateIn{
+	width: 25vh;
+}
+.selected{
+	background-color: rgba(0,0,0,0.5);
+}
+.checked{
+	text-decoration: line-through;
+}
+.check{
+	cursor: pointer;
+	height: 5vh;
+  	width: 5vh;
+}
+.del{
+	border-radius: 50%;
+	float: right;
+	color: #fff; 
+ 	text-decoration: none; 
+ 	user-select: none;
+ 	background: rgb(212,75,56);
+}
+.del:hover{
+  	background: rgb(232,95,76); 
+}
+.del:active{
+	background: rgb(152,15,0);
+} 
+.date{
+	text-align: center;
+}
+.mulDel{
+	visibility: hidden ;
+}
+.arrow{
+	float:left;
+	width: 10%;
+	visibility: hidden ;
+}
+.sort{
+	width:80%;
+	margin:0 10% 2% 10%;
+	text-align: center;
+}
+.lists{
+	width: 100%;
+	text-align: center;
+	float:left;
+}
+.arrowLeft,.plus,.minus{
+	width:10%;
+	float:left;
+	margin-top:2%;
+}
+.arrowRigth{
+	width:10%;
+	float:right;
+	margin-top:2%;
+}
+.conteiner{
+	color:white;
+	width:80%;
+	margin:1% 10% 2% 10%;
+	background-color: #0047AB;
+	padding-bottom: 1%;
+	border-radius: 50px;
+}
+.conteiner input{
+	width:20vh;
+	margin-top:10%;
+}
+
+
+.searchList{
+	width:30%;
+	float:left;
+}
+.addList{
+	width:30%;
+	float:left;
+}
